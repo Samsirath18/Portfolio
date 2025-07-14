@@ -1,0 +1,87 @@
+.apropos-section {
+  padding: 100px 20px;
+  background-color: #ffffff;
+  color: #333;
+}
+
+.apropos-container {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Texte */
+.apropos-text {
+  flex: 1;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.competences-title {
+  margin-top: 20px;
+  font-weight: 600;
+  color: #333;
+}
+
+.competences-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.competences-list li {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  color: #555;
+}
+
+.icon {
+  margin-right: 10px;
+  font-size: 1.2rem;
+  color: #007bff;
+}
+
+/* 📸 Partie image avec effet élégant */
+.apropos-photo {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 20px;
+}
+
+.apropos-photo img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 15px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  z-index: 1;
+}
+
+.apropos-photo img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+}
+
+/* Déco visuelle arrière */
+.apropos-photo::before {
+  content: '';
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  background: linear-gradient(135deg, #f0f0f0, #d9eaff);
+  border-radius: 20px;
+  top: 25px;
+  left: 25px;
+  z-index: 0;
+}
