@@ -19,7 +19,7 @@ const projets = [
     titre: 'Portfolio personnel',
     description: "Mon portfolio construit avec React et des animations modernes.",
     image: '/img/boni.png',
-    github: 'https://github.com/tonprofil/monportfolio',
+    github: 'https://github.com/Samsirath18/Portfolio',
     demo: 'http://localhost:5176/#accueil',
   },
 ];
