@@ -1,9 +1,9 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import Accueil from './components/Accueil';
+import Navbar from './Components/Navbar';
+import Accueil from './Components/Accueil';
 import Apropos from './components/Apropos';
-import Projets from './components/Projets';
-import Contact from './components/Contact';
+import Projets from './Components/Projets';
+import Contact from './Components/Contact';
 import Footer from './components/Footer';
 
 
