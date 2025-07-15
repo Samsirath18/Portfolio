@@ -7,7 +7,7 @@ const projets = [
     description: "Application web pour découvrir les richesses culturelles du Bénin.",
     image: '/img/benin.png',
     github: 'https://github.com/Samsirath18/VisiteBenin',
-    demo: 'http://localhost:5177/',
+    demo: 'https://benin-plus.netlify.app/',
   },
   {
     titre: 'EtudiRoom',
