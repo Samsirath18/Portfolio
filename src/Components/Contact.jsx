@@ -1,6 +1,5 @@
 import React, { useRef, useState } from 'react';
-import emailjs from '@emailjs/browser';
-
+import emailjs from '@emailjs/browser'; // ✅ le bon package pour Vite
 import './Contact.css';
 
 function Contact() {
@@ -11,30 +10,28 @@ function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    // Vérifie les champs manuellement si tu veux
     const name = form.current.name.value.trim();
     const email = form.current.email.value.trim();
     const message = form.current.message.value.trim();
 
     if (!name || !email || !message) {
       setStatusType('error');
-      setStatusMessage("Tous les champs sont requis.");
+      setStatusMessage("❗ Tous les champs sont requis.");
       return;
     }
 
-    // Expression régulière simple pour l’email
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(email)) {
       setStatusType('error');
-      setStatusMessage("Veuillez entrer une adresse email valide.");
+      setStatusMessage("❗ Adresse e-mail invalide.");
       return;
     }
 
     emailjs.sendForm(
-      'service_uhuk88l',
-      'template_phm51rd',
+      'service_uhuk88l',         // Ton vrai service ID
+      'template_phm51rd',        // Ton template ID
       form.current,
-      'GAdsPyTGhu3QCJhI2'
+      'GAdsPyTGhu3QCJhI2'        // Ta clé publique
     )
     .then(() => {
       setStatusType('success');
@@ -43,7 +40,7 @@ function Contact() {
     })
     .catch(() => {
       setStatusType('error');
-      setStatusMessage("❌ Une erreur s'est produite. Réessayez plus tard.");
+      setStatusMessage("❌ Une erreur s'est produite. Réessayez.");
     });
   };
 
@@ -51,7 +48,7 @@ function Contact() {
     <section id="contact" className="contact-section">
       <h2 className="section-title">Me Contacter</h2>
       <p className="section-subtitle">Une question ? Une collaboration ? N'hésitez pas à m’écrire.</p>
-      
+
       <form ref={form} onSubmit={sendEmail} className="contact-form fade-in-up">
         <input type="text" name="name" placeholder="Votre nom" required />
         <input type="email" name="email" placeholder="Votre email" required />
