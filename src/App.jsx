@@ -1,10 +1,10 @@
 import React from 'react';
 import Navbar from './Components/Navbar';
 import Accueil from './Components/Accueil';
-import Apropos from './components/Apropos';
+import Apropos from './Components/Apropos';
 import Projets from './Components/Projets';
 import Contact from './Components/Contact';
-import Footer from './components/Footer';
+import Footer from './Components/Footer';
 
 
 function App() {
