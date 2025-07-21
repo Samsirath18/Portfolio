@@ -28,11 +28,12 @@ function Contact() {
     }
 
     emailjs.sendForm(
-      'service_uhuk88l',         // Ton vrai service ID
-      'template_phm51rd',        // Ton template ID
-      form.current,
-      'GAdsPyTGhu3QCJhI2'        // Ta clé publique
-    )
+  'service_6tlzfpt',          
+  'template_phm51rd',         
+  form.current,
+  'GAdsPyTGhu3QCJhI2'         
+)
+
     .then(() => {
       setStatusType('success');
       setStatusMessage("✅ Message envoyé avec succès !");

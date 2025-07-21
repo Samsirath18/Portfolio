@@ -147,3 +147,45 @@
 .accueil-illustration img:hover {
   transform: scale(1.05);
 }
+
+
+
+@media (max-width: 768px) {
+  .accueil-section {
+    flex-direction: column;
+    padding: 80px 20px;
+    text-align: center;
+  }
+
+  .accueil-content {
+    animation: none;
+  }
+
+  .accueil-title {
+    font-size: 2.2rem;
+  }
+
+  .accueil-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .accueil-buttons {
+    justify-content: center;
+  }
+
+  .accueil-illustration {
+    margin-top: 30px;
+    animation: none;
+  }
+
+  .accueil-illustration img {
+    width: 80%;
+    max-width: 300px;
+  }
+
+  .accueil-illustration::before {
+    width: 300px;
+    height: 300px;
+    filter: blur(30px);
+  }
+}
