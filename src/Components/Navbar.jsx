@@ -24,7 +24,7 @@ function Navbar() {
 
         <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
           <li onClick={closeMenu}><a href="#accueil"><FaHome /> <span>Accueil</span></a></li>
-          <li onClick={closeMenu}><a href="#apropos"><FaUser /> <span>À propos</span></a></li>
+           <li onClick={closeMenu}><a href="#apropos"><FaUser /> <span>Apropos</span></a></li>
           <li onClick={closeMenu}><a href="#projets"><FaProjectDiagram /> <span>Projets</span></a></li>
           <li onClick={closeMenu}><a href="#contact"><FaEnvelope /> <span>Contact</span></a></li>
         </ul>

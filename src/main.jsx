@@ -5,10 +5,9 @@ import Accueil from "./Components/Accueil.jsx";
 import Footer from "./Components/Footer.jsx";
 import Projets from "./Components/Projets.jsx";
 import Contact from './Components/Contact.jsx';
-import Apropos from './Components/APropos.jsx'; 
 import Navbar from './Components/Navbar.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import Apropos from './Components/Apropos.jsx'; 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
