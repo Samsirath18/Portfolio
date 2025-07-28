@@ -17,7 +17,7 @@ Pour moi, chaque projet est une opportunité de bâtir un pont entre design, acc
           </p>
           <p className="competences-title">Mes compétences principales :</p>
           <ul className="competences-list">
-            <li><FaReact className="icon" /> React</li>
+            <li><FaReact className="icon"/> React</li>
             <li><FaWordpress className="icon" /> WordPress</li>
             <li><FaBootstrap className="icon" /> Bootstrap</li>
             <li><FaCss3Alt className="icon" /> CSS Moderne</li>
