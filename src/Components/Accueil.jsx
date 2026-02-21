@@ -17,7 +17,7 @@ function Accueil() {
         </div>
       </div>
       <div className="accueil-illustration">
-        {/* Ici tu peux mettre une image ou illustration svg */}
+        {/*  image ou illustration svg */}
         <img src="/img/sam.jpg" alt="Illustration développeuse" />
       </div>
     </section>

@@ -2,12 +2,12 @@ import React from 'react';
 import './Projets.css';
 
 const projets = [
-  {
-    titre: 'BENIN+',
-    description: "Application web pour découvrir les richesses culturelles du Bénin.",
-    image: '/img/benin.png',
-    github: 'https://github.com/Samsirath18/VisiteBenin',
-    demo: 'https://benin-plus.netlify.app/',
+ {
+    titre: 'Consultation & Enquête',
+    description: "Projet construit avec React et des animations modernes.",
+    image: '/img/consultation.png',
+    github: 'https://github.com/Samsirath18/agent-enqueteur',
+    demo: 'https://agent-enqueteur.vercel.app/',
   },
   {
     titre: 'EtudiRoom',
@@ -22,6 +22,7 @@ const projets = [
     github: 'https://github.com/Samsirath18/Portfolio',
     demo: 'https://monportfo.netlify.app/',
   },
+
 ];
 
 function Projets() {

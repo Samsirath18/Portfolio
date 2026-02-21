@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import emailjs from '@emailjs/browser'; // ✅ le bon package pour Vite
+import emailjs from '@emailjs/browser'; 
 import './Contact.css';
 
 function Contact() {
