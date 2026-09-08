@@ -18,7 +18,7 @@ function Accueil() {
       </div>
       <div className="accueil-illustration">
         {/*  image ou illustration svg */}
-        <img src="/img/sam.jpg" alt="Illustration développeuse" />
+        <img src="/img/sams.jpg" alt="Illustration développeuse" />
       </div>
     </section>
   );

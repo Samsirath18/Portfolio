@@ -16,7 +16,7 @@ function Navbar() {
   return (
     <nav className="custom-navbar">
       <div className="navbar-container">
-        <a href="#accueil" className="logo">Samsirath Sylla.dev</a>
+        <a href="#accueil" className="logo">WEB SOLUTIONS</a>
 
         <div className="burger-menu" onClick={toggleMenu}>
           {menuOpen ? <FaTimes /> : <FaBars />}

@@ -24,7 +24,7 @@ Pour moi, chaque projet est une opportunité de bâtir un pont entre design, acc
           </ul>
         </div>
         <div className="apropos-photo fade-in-right">
-          <img src="/img/sam.jpg" alt="Samsirath" />
+          <img src="/img/sams.jpg" alt="Samsirath" />
         </div>
       </div>
     </section>
